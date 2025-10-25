@@ -9,7 +9,7 @@ export const key = {
     const key = keyManager.set(process.env.API_KEY);
 
     if (key) {
-      console.log('API Key set successfully: ', key.blue);
+      console.log('API Key set successfully.'.blue);
     }
   },
 
